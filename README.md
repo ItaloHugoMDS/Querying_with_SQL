@@ -29,7 +29,9 @@ The table consists of the following information:
 
 ### 1. Query  
 
-The first query makes use of filtering and logical conditionals. The query used has the following syntax:  
+The first query makes use of filtering and logical conditionals.  
+
+The query used has the following syntax:  
 
 ```sql
 SELECT *
