@@ -16,7 +16,7 @@ The queries were done using *SQL* language and ran within a **MariaDB** applicat
 
 ## Running queries  
 
-The first queries will use the **Invoice** table to retrieve and filter from information. The keys contained within this
+The first queries will use the **Invoice** table to retrieve and filter for information. The keys contained within this
 table are the following:  
 
 ![Invoice Description](Invoice_Description.png)
