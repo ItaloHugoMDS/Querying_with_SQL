@@ -139,7 +139,7 @@ Therefore, in order to have the same result as the previous command, the applica
 the `LEFT JOIN` commands and unifying their output together within one query result. This will make the same result as
 the `FULL OUTER JOIN` command.  
 
-The syntax used for the query will return the *Artist*, *Name*, *Title*, *AlbumId* columns from both *Artist* and
+The syntax used for the query will return the *ArtistId*, *Name*, *Title*, *AlbumId* columns from both *Artist* and
 *Album* tables. As previously explained, the command will have the same effect as the `FULL OUTER JOIN`.  
 
 The junction between tables needs a shared column from both of them, so that the output rows can be aligned correctly.
