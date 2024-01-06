@@ -144,12 +144,12 @@ The syntax used for the query will return the *ArtistId*, *Name*, *Title*, *Albu
 
 The junction between tables needs a shared column from both of them, so that the output rows can be aligned correctly.
 In this example, both tables have the *ArtistId* column in common, which means that this column will be used as a
-reference column to align all the data from both column.  
+reference column to align all the data from both tables.  
 
 The `FULL OUTER JOIN` command is not very effective because it will return all the data from both columns, even if one 
-of the columns doesn't have data to match the reference column, in this example the *ArtistId* column. But the command
-can be useful in some cases, for example, to have an idea of the entire dataset that needs to be yielded from the
-columns.  
+of the columns doesn't have data to match the **reference column**, in this example the *ArtistId* column. But the
+command can be useful in some cases, for example, to have an idea of the entire dataset that needs to be yielded from
+both tables.  
 
 The output for this query will be the following:  
 
@@ -170,8 +170,8 @@ The difference is that, the `FULL OUTER JOIN` will fill the rows from the *Album
 the rows from the *ArtistId* column of the *Artist* table, with `ǸULL` values. But it still will retrieve **all** the
 rows from both tables.  
 
-The `INNER JOIN` command will only retrieve the rows from both tables if those rows have data to match the other
-all the columns from both tables.  
+The `INNER JOIN` command will only retrieve the rows from both tables if those rows have data to match all the columns
+from both tables.  
 
 For example, in the `FULL OUTER JOIN` query, the *ArtistId* **25** didn't have any data in the *Title* column, which
 came from the *Album* table, so command filled the row of this column with the `NULL` value, this is how the command
